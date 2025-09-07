@@ -1,2 +1,4 @@
 # natural-language-processing
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lucasbxyz/natural-language-processing/HEAD)
+
+This project classifies Yelp reviews into two categories: 1 star or 5 stars, based solely on the text of the review. The dataset comes from Kaggle and contains individual reviews from users about various businesses. The “stars” column shows the rating a user gave, ranging from 1 to 5. The dataset also includes “cool”, “useful”, and “funny” columns that count how many other users marked the review as cool, helpful, or funny. Every review starts with zero votes in these categories, and there is no upper limit. The focus of this project is to analyze the review text and predict the star rating using a pipeline designed for NLP tasks. This project is an assignment from the Udemy course: [Python für Data Science, Machine Learning & Visualization](https://www.udemy.com/course/python-data-science-machine-learning).
